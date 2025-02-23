@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   
   
   
-  <link rel="canonical" href="/series/" />
+  <link rel="canonical" href="http://localhost:1313/series/" />
   
   <link rel="alternate" type="application/rss+xml" href="/series/index.xml" title="Fikiblog" />
   
@@ -28,8 +28,10 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.eb9beeaa99d1487ec494de441fc373635cde5be47b63b078f22ad611ad3e95faa17d30555bc987dc8825262cb239f929132cd90f5f7e56fb46c3e8ce42c98c6f.css"
-    integrity="sha512-65vuqpnRSH7ElN5EH8NzY1zeW&#43;R7Y7B48irWEa0&#43;lfqhfTBVW8mH3IglJiyyOfkpEyzZD19&#43;VvtGw&#43;jOQsmMbw==" />
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.c349993e2f29b78b3b51f82563b46460673a979d61453fe58e7071004c067c8a333eee2d250faf7007f9868de7f7f662ea631575d52d21528c183d63853d3276.css"
+    integrity="sha512-w0mZPi8pt4s7UfglY7RkYGc6l51hRT/ljnBxAEwGfIozPu4tJQ&#43;vcAf5ho3n9/Zi6mMVddUtIVKMGD1jhT0ydg==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -45,11 +47,8 @@
   
   
   
-  
-  
-  
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.827fa4e4523276d4fbafeb177baab022781a885b35699f60775ce8fdb94f87df6088e5e5555d1846206d67806aa47399593ea04bda1fff30dc398aaf5e718ec9.js"
-    integrity="sha512-gn&#43;k5FIydtT7r&#43;sXe6qwIngaiFs1aZ9gd1zo/blPh99giOXlVV0YRiBtZ4BqpHOZWT6gS9of/zDcOYqvXnGOyQ==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.2392f38a1aae8353747bea83408727bbe8aa773948b375fc29eb2af19f11deb4d824ffe9284c5887042ecef413c3df3535cb73af0bddb04ae3f4aa69080bda2f.js"
+    integrity="sha512-I5Lzihqug1N0e&#43;qDQIcnu&#43;iqdzlIs3X8Kesq8Z8R3rTYJP/pKExYhwQuzvQTw981NctzrwvdsErj9KppCAvaLw==" data-copy="" data-copied=""></script>
   
   
   
@@ -69,7 +68,7 @@
   
   
   
-  <meta property="og:url" content="/series/">
+  <meta property="og:url" content="http://localhost:1313/series/">
   <meta property="og:site_name" content="Fikiblog">
   <meta property="og:title" content="Series">
   <meta property="og:description" content="poker rulet slot i po koji jaci singl">
@@ -124,6 +123,29 @@
   <meta name="theme-color"/>
   
   
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCdsjWJmhLwojm5cuFVSiYqZOkJ7ZPFmFo",
+      authDomain: "AIzaSyCdsjWJmhLwojm5cuFVSiYqZOkJ7ZPFmFo",
+      projectId: "fikiblog-dd61a",
+      storageBucket: "fikiblog-dd61a.firebasestorage.app",
+      messagingSenderId: "47343882491",
+      appId: "1:47343882491:web:f679eef9f9ea4572e1a05e",
+      measurementId: "G-3MFBFXSEFE"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+  
+  
 </head>
 <body
   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
@@ -136,7 +158,7 @@
   
   <div class="min-h-[148px]"></div>
 <div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
-  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
@@ -198,32 +220,6 @@
 
             
             
-            <div
-                class=" flex items-center">
-                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
-                    <div class="flex items-center justify-center dark:hidden">
-                        
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-
-  </span>
-
-
-                    </div>
-                    <div class="items-center justify-center hidden dark:flex">
-                        
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-
-  </span>
-
-
-                    </div>
-                </button>
-            </div>
-            
 
         </nav>
         <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
@@ -248,29 +244,6 @@
             
 
             
-            
-            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400 ltr:mr-1 rtl:ml-1">
-                <div class="flex items-center justify-center dark:hidden">
-                    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-
-  </span>
-
-
-                </div>
-                <div class="items-center justify-center hidden dark:flex">
-                    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-
-  </span>
-
-
-                </div>
-            </button>
             
 
         </div>
@@ -443,7 +416,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div
