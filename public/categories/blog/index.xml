@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Fikiblog</title>
+    <link>//localhost:1313/categories/blog/</link>
+    <description>Recent content in Blog on Fikiblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Spinosaurus</title>
+      <link>//localhost:1313/posts/post-lite-one/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/post-lite-one/</guid>
+      <description>Poraz na domaćem terenu</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/post-lite-one/cover.png" />
+    </item>
+    
+    <item>
+      <title>Žrtveno prase</title>
+      <link>//localhost:1313/posts/post-lite-four/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/post-lite-four/</guid>
+      <description>Samo nek se okreće</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/post-lite-four/cover.png" />
+    </item>
+    
+    <item>
+      <title>Kretenje</title>
+      <link>//localhost:1313/posts/post-lite-three/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/post-lite-three/</guid>
+      <description>Za ili protiv dahija?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/post-lite-three/cover.png" />
+    </item>
+    
+    <item>
+      <title>Mokrim za Mokrin</title>
+      <link>//localhost:1313/posts/post-lite-two/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/post-lite-two/</guid>
+      <description>Jedini bajker</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/post-lite-two/cover.png" />
+    </item>
+    
+  </channel>
+</rss>
