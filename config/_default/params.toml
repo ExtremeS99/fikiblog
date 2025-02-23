@@ -1,100 +1,82 @@
-# -- Theme Options --
-# These options control how the theme functions and allow you to
-# customise the display of your website.
-#
-# Refer to the theme docs for more details about each of these parameters.
-# https://nunocoracao.github.io/blowfish/docs/configuration/#theme-parameters
-
-colorScheme = "Forest"
-defaultAppearance = "dark" # valid options: light or dark
+colorScheme = "Noir"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
-
 enableSearch = true
 enableCodeCopy = false
 highlightCurrentMenuArea = true
 disableTextInHeader = true
-
-mainSections = ["posts"]
-# robots = ""
+mainSections = [ "posts" ]
 
 [header]
-  layout = "fixed-fill-blur" # valid options: basic, fixed
+layout = "fixed"
 
 [footer]
-  showMenu = true
-  showCopyright = false
-  showThemeAttribution = false
-  showAppearanceSwitcher = false
-  showScrollToTop = true
+showMenu = false
+showCopyright = false
+showThemeAttribution = false
+showAppearanceSwitcher = true
+showScrollToTop = true
 
 [homepage]
-  layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/cover.png" # used in: hero, and card
-  showRecent = true
-  showRecentItems = 5
-  showMoreLink = true
-  showMoreLinkDest = "/blowfish_lowkey/posts"
-  cardView = false
-  cardViewScreenWidth = false
-  layoutBackgroundBlur = true # only used when layout equals background
+layout = "background"
+homepageImage = "posl-min.png"
+showRecent = true
+showRecentItems = 5
+showMoreLink = true
+showMoreLinkDest = "/blowfish_lowkey/posts"
+cardView = false
+cardViewScreenWidth = false
+layoutBackgroundBlur = false
 
 [article]
-  showDate = true
-  showViews = true
-  showLikes = true
-  showDateUpdated = false
-  showAuthor = true
-  showHero = true
-  heroStyle = "basic" # valid options: basic, big, background
-  showBreadcrumbs = true
-  showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/username/repo/"
-  editAppendPath = true
-  seriesOpened = false
-  showHeadingAnchors = true
-  showPagination = true
-  invertPagination = false
-  showReadingTime = true
-  showTableOfContents = true
-  showTaxonomies = false 
-  showAuthorsBadges = true 
-  showWordCount = true
-  showSummary = true
-  sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
+showDate = true
+showViews = true
+showLikes = true
+showDateUpdated = false
+showAuthor = true
+showHero = true
+heroStyle = "basic"
+showBreadcrumbs = true
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = true
+invertPagination = false
+showReadingTime = true
+showTableOfContents = true
+showTaxonomies = false
+showAuthorsBadges = true
+showWordCount = true
+showSummary = true
+sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email" ]
 
 [list]
-  layoutBackgroundHeaderSpace = false
-  showBreadcrumbs = true
-  showSummary = true
-  showTableOfContents = false
-  showCards = true
-  groupByYear = true
-  cardView = false
-  cardViewScreenWidth = false
+layoutBackgroundHeaderSpace = false
+showBreadcrumbs = true
+showSummary = true
+showTableOfContents = false
+showCards = true
+groupByYear = true
+cardView = false
+cardViewScreenWidth = false
 
 [sitemap]
-  excludedKinds = []
+excludedKinds = []
 
 [taxonomy]
-  showTermCount = true
+showTermCount = true
 
 [firebase]
-   
-   apiKey = "AIzaSyCdsjWJmhLwojm5cuFVSiYqZOkJ7ZPFmFo"
-   authDomain = "fikiblog-dd61a.firebaseapp.com"
-   projectId = "fikiblog-dd61a"
-   storageBucket = "fikiblog-dd61a.firebasestorage.app"
-   messagingSenderId = "47343882491"
-   appId = "1:47343882491:web:f679eef9f9ea4572e1a05e"
-   measurementId = "G-3MFBFXSEFE"
+apiKey = "AIzaSyCdsjWJmhLwojm5cuFVSiYqZOkJ7ZPFmFo"
+authDomain = "fikiblog-dd61a.firebaseapp.com"
+projectId = "fikiblog-dd61a"
+storageBucket = "fikiblog-dd61a.firebasestorage.app"
+messagingSenderId = "47343882491"
+appId = "1:47343882491:web:f679eef9f9ea4572e1a05e"
+measurementId = "G-3MFBFXSEFE"
 
 [fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
 
 [verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
