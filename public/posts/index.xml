@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Fikiblog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://fikiblog.netlify.app/posts/</link>
     <description>Recent content in Posts on Fikiblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://fikiblog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Nije lako biti opozicija</title>
-      <link>http://localhost:1313/posts/1740433234706-nije-lako-biti-opozicija/</link>
+      <link>https://fikiblog.netlify.app/posts/1740433234706-nije-lako-biti-opozicija/</link>
       <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/1740433234706-nije-lako-biti-opozicija/</guid>
+      <guid>https://fikiblog.netlify.app/posts/1740433234706-nije-lako-biti-opozicija/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;Pomen za razum 
     &lt;div id=&#34;pomen-za-razum&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -27,47 +27,47 @@
 &lt;/h1&gt;
 &lt;hr&gt;
 &lt;p&gt;Nije lako biti opozicija. Iz ovog vrtloga društveno-političke krize, u kojoj vlada sumnja u svaku izgovorenu reč, u svako delo, jedino je ova rečenica sigurna. U jeku ovog širokog, neki bi rekli i decentralizovanog, društvenog pokreta uobličenog u četiri zahteva i studentski indeks, klupko paradoksa i oksimorona se već dugo odmotova, a kraj mu se samo spekuliše.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1740433234706-nije-lako-biti-opozicija/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fikiblog.netlify.app/posts/1740433234706-nije-lako-biti-opozicija/featured.png" />
     </item>
     
     <item>
       <title>Spinosaurus</title>
-      <link>http://localhost:1313/posts/post-lite-one/</link>
+      <link>https://fikiblog.netlify.app/posts/post-lite-one/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/post-lite-one/</guid>
+      <guid>https://fikiblog.netlify.app/posts/post-lite-one/</guid>
       <description>Poraz na domaćem terenu</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/post-lite-one/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fikiblog.netlify.app/posts/post-lite-one/cover.png" />
     </item>
     
     <item>
       <title>Žrtveno prase</title>
-      <link>http://localhost:1313/posts/post-lite-four/</link>
+      <link>https://fikiblog.netlify.app/posts/post-lite-four/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/post-lite-four/</guid>
+      <guid>https://fikiblog.netlify.app/posts/post-lite-four/</guid>
       <description>Samo nek se okreće</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/post-lite-four/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fikiblog.netlify.app/posts/post-lite-four/cover.png" />
     </item>
     
     <item>
       <title>Kretenje</title>
-      <link>http://localhost:1313/posts/post-lite-three/</link>
+      <link>https://fikiblog.netlify.app/posts/post-lite-three/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/post-lite-three/</guid>
+      <guid>https://fikiblog.netlify.app/posts/post-lite-three/</guid>
       <description>Za ili protiv dahija?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/post-lite-three/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fikiblog.netlify.app/posts/post-lite-three/cover.png" />
     </item>
     
     <item>
       <title>Mokrim za Mokrin</title>
-      <link>http://localhost:1313/posts/post-lite-two/</link>
+      <link>https://fikiblog.netlify.app/posts/post-lite-two/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/post-lite-two/</guid>
+      <guid>https://fikiblog.netlify.app/posts/post-lite-two/</guid>
       <description>Jedini bajker</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/post-lite-two/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fikiblog.netlify.app/posts/post-lite-two/cover.png" />
     </item>
     
   </channel>

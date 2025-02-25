@@ -8,6 +8,8 @@ disableTextInHeader = false
 mainSections = [ "posts" ]
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
+defaultBackgroundImage = "posl-min.png"
+defaultFeaturedImage = "animtest.png"
 
 [header]
 layout = "fixed-gradient"
@@ -20,7 +22,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+layout = "background"
 homepageImage = "posl-min.png"
 showRecent = true
 showRecentItems = 5
@@ -28,7 +30,7 @@ showMoreLink = true
 showMoreLinkDest = "/posts/"
 cardView = false
 cardViewScreenWidth = false
-layoutBackgroundBlur = false
+layoutBackgroundBlur = true
 
 [article]
 showDate = true
@@ -52,7 +54,7 @@ showTaxonomies = false
 showAuthorsBadges = true
 showWordCount = true
 showSummary = true
-sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email" ]
+sharingLinks = [ "twitter", "whatsapp", "email" ]
 
 [list]
 layoutBackgroundHeaderSpace = false
