@@ -1,14 +1,16 @@
-colorScheme = "Noir"
+colorScheme = "autumn"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = false
 highlightCurrentMenuArea = true
-disableTextInHeader = true
+disableTextInHeader = false
 mainSections = [ "posts" ]
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [header]
-layout = "fixed"
+layout = "fixed-gradient"
 
 [footer]
 showMenu = false
@@ -18,12 +20,12 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "background"
+layout = "profile"
 homepageImage = "posl-min.png"
 showRecent = true
 showRecentItems = 5
 showMoreLink = true
-showMoreLinkDest = "/blowfish_lowkey/posts"
+showMoreLinkDest = "/posts/"
 cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
@@ -34,12 +36,12 @@ showViews = true
 showLikes = true
 showDateUpdated = false
 showAuthor = true
-showHero = true
+showHero = false
 heroStyle = "basic"
 showBreadcrumbs = true
 showDraftLabel = true
 showEdit = false
-editAppendPath = true
+editAppendPath = false
 seriesOpened = false
 showHeadingAnchors = true
 showPagination = true

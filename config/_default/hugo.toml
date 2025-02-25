@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 
 enableRobotsTXT = true
 pagination.pagerSize = 20
-summaryLength = 30
+summaryLength = 1
 
 buildDrafts = false
 buildFuture = false
@@ -16,6 +16,9 @@ buildFuture = false
 enableEmoji = true
 
 # googleAnalytics = "G-XXXXXXXXX"
+
+[imaging]
+  anchor = 'Center'
 
 [taxonomies]
   tag = "tags"
